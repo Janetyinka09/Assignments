@@ -1,0 +1,9 @@
+Rent=1200
+Groceries=300
+Transportation=150
+Entertainment=100
+Miscellaneous=50
+monthly_expenses=(Rent+Groceries+Transportation+Entertainment+Miscellaneous)
+print(monthly_expenses) 
+amount_per_day=(monthly_expenses/30)
+print(amount_per_day)
